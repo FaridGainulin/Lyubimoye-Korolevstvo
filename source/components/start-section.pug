@@ -1,0 +1,70 @@
+section.start-section
+  .wrapper
+    .start-section__container
+      .start-section__top.text-center
+        .font-s-32
+          | Узнайте, где лучше всего открыть 
+          br.no-br
+          span.font-w-bold «Любимое Королевство» в вашем городе
+        .start-section__top-text.font-s-18.color-grey-8d
+          | Укажите название города 
+          br.no-br
+          | и мы подготовим список удачных локаций
+        form.start-section__form(data-city-form)
+          .input.input--secondary.js-input-city.start-item
+            input.input.input--secondary.start-item.input-city-position(type="text" name="city" autocomplete="off" placeholder="Название города")
+            .input__progress.js-input-city-progress
+              span.js-input-city-percent 0%
+          button.btn.start-item(type="submit") Получить список локаций
+      h2.start-section__title.font-s-48
+        span.font-w-semi-bold Как мы поможем 
+        br.no-br
+        | вам на старте?
+      .swiper-start
+        .start-section__cards.swiper-wrapper
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon.svg" loading="lazy" width="15" height="16" alt="icon")
+            .font-s-18 Проведем для вас очно-заочное обучение в течение 5-ти дней
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon.svg" loading="lazy" width="15" height="16" alt="icon")
+            .font-s-18 Подготовим к работе ваших сотрудников и мастеров
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon.svg" loading="lazy" width="15" height="16" alt="icon")
+            .font-s-18 Предоставим стандарты оказания услуг клиентам
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon.svg" loading="lazy" width="15" height="16" alt="icon")
+            .font-s-18 Поможем выбрать и оформить лучшее помещение
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon.svg" loading="lazy" width="15" height="16" alt="icon")
+            .font-s-18 Предоставим список проверенных поставщиков оборудования
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon.svg" loading="lazy" width="15" height="16" alt="icon")
+            .font-s-18 Поделимся рабочими маркетинговыми инструментами
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon.svg" loading="lazy" width="15" height="16" alt="icon")
+            .font-s-18 Предоставим готовый контент-план для работы соц.сетей
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon.svg" loading="lazy" width="15" height="16" alt="icon")
+            .font-s-18 Поможем организовать торжественное открытие салона
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon.svg" loading="lazy" width="15" height="16" alt="icon")
+            .font-s-18 Организуем бухгалтерское сопровождение
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon.svg" loading="lazy" width="15" height="16" alt="icon")
+            .font-s-18 Поможем с решением юридических вопросов
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon.svg" loading="lazy" width="15" height="16" alt="icon")
+            .font-s-18 Подключим к общему программному обеспечению
+          .start-section__card.swiper-slide
+            img.start-section__card-icon(src="images/start-section-card-icon.svg" loading="lazy" width="15" height="16" alt="icon")
+            .font-s-18 Добавим в закрытое сообщество партнеров сети
+        .start-pagination.swiper-progress-start
+      .start-section__bottom-text.font-s-18.color-grey-8d
+        | Скачайте договор, в котором описаны наши 
+        br.no-br
+        | обязанности и условия работы с франчайзи
+      form.start-section__bottom-form(data-feedback-form)
+        input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+        input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+        button.btn(type="submit") Скачать
+      img.start-section__img(src="images/start-section-img.png" loading="lazy" width="2006" height="2070" alt="image")

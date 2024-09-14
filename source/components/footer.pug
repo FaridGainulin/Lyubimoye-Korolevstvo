@@ -1,0 +1,14 @@
+footer.footer
+  .footer__container
+    img.footer__logo(src="images/footer-logo.png" loading="lazy" width="534" height="234" alt="logo")
+    .footer__text.font-w-regular.font-s-16.color-grey-ae.text-center Франшиза сети <br> салонов-парикмахерских, 2024 год
+    .footer__block
+      .footer__connection
+        include ../components/phone-number.pug
+      a.footer__privacy.font-w-regular.font-s-16(href="#" data-remodal-target="privacy").agree-privacy Политика конфиденциальности
+
+    //- .header__connection
+    //-   a(href="tel:+78000000000")
+    //-     img.header__connection-icon(src="images/connection-icon.svg" loading="lazy" width="20" height="20" alt="icon")
+    //-   include ../components/phone-number.pug
+    //-   .header__call-me.font-s-12(data-remodal-target="modal-form-call-me") Обратный звонок

@@ -1,0 +1,64 @@
+.footer
+  // background-image: url('../images/footer-bg.jpg')
+  // background-repeat: no-repeat
+  // background-position: center
+  // background-size: cover
+  // background-color #1E1E1E
+
+  &__container
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 10px
+    color: #fff
+    +above($breakpoints.sm)
+      justify-content space-between
+      flex-direction: row
+      align-items: flex-end
+
+  &__logo
+    width 130px
+    height: auto
+    +above($breakpoints.sm)
+      width 140px
+    +above($breakpoints.md)
+      width 160px
+    +above($breakpoints.xxl)
+      width 178px
+
+  &__text
+    display: none
+    +above($breakpoints.sm)
+      display: block
+
+  &__block
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 10px
+    +above($breakpoints.sm)
+      align-items: flex-end
+
+  &__connection
+    display: flex
+    align-items: center
+    justify-content center
+    color: $color-orange
+    background-color #000
+    border-radius: 95px
+    width 135px
+    height: 25px
+    +above($breakpoints.sm)
+      width 140px
+      height: 30px
+    +above($breakpoints.md)
+      width 150px
+      height: 33px
+    +above($breakpoints.xxl)
+      width 180px
+      height: 35px
+
+  &__privacy
+    cursor pointer
+    text-decoration: underline
+    color: #AEAEAE

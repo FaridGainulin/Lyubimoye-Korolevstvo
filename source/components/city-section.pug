@@ -1,0 +1,24 @@
+section.city-section
+  .wrapper
+    .city-section__container
+      img.city-section__img-1(src="images/city-section-img-1.png" loading="lazy" width="887" height="783" alt="image")
+      img.city-section__img-2(src="images/city-section-img-2.png" loading="lazy" width="998" height="906" alt="image")
+      .city-section__box
+        h2.city-section__title.font-s-48
+          span.font-w-semi-bold Зарабатывайте от 2,6 млн 
+          br.no-br
+          | чистой прибыли в год
+        .city-section__sub-title.font-w-regular.font-s-22
+          | на собственном салоне-парикмахерской
+        .city-section__text.font-s-18
+          span.color-grey-8d Проверьте, свободен ли 
+          br.no-br
+          span.color-grey-8d ваш город для работы по франшизе 
+          br.no-br
+          span.font-w-medium «Любимое Королевство»
+        form.city-section__form(data-feedback-form)
+          input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn(type="submit") Проверить
+      img.city-section__img(src="images/city-section-img.png" loading="lazy" width="1362" height="1282" alt="image")
+      include ../components/footer.pug

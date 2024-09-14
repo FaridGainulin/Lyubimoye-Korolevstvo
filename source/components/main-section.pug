@@ -1,0 +1,33 @@
+section.main-section
+  .wrapper
+    .main-section__container
+      img.main-section__icon(src="images/main-section-icon.png" loading="lazy" width="426" height="426" alt="icon")
+      include ../components/header.pug
+      .main-section__sub-title.font-w-regular.font-s-24
+        | Запустите свой бизнес 
+        br.no-br
+        | в beauty-индустрии
+      h1.main-section__title.font-s-48
+        | Откройте 
+        br.no-br
+        | салон-парикмахерскую 
+        br.no-br
+        span.color-orange.font-w-bold «Любимое Королевство»
+      .main-section__body
+        .main-section__text-right.font-s-18.text-center
+          | и зарабатывайте 
+          br.no-br
+          span.font-w-semi-bold от 216 000 рублей 
+          br.no-br
+          | ежемесячно
+        .main-section__text-left.font-s-18.color-grey-8d
+          | Получите подробную 
+          br.no-br
+          | презентацию франшизы 
+          br.no-br
+          | с цифрами и примерами в 1 клик
+      form.main-section__form(data-feedback-form)
+        input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+        input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+        button.btn(type="submit") Получить
+      img.main-section__img(src="images/main-section-img.png" loading="lazy" width="1994" height="2048" alt="image")

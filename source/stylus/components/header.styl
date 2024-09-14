@@ -1,0 +1,40 @@
+.header
+  &__container
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content space-between
+
+  &__brand-title
+    display: none
+    +above($breakpoints.sm)
+      display: block
+
+  &__logo
+    width 130px
+    height: auto
+    +above($breakpoints.sm)
+      width 140px
+    +above($breakpoints.md)
+      width 160px
+    +above($breakpoints.xxl)
+      width 178px
+
+  &__connection
+    display: flex
+    align-items: center
+    justify-content center
+    color: $color-orange
+    background-color #000
+    border-radius: 95px
+    width 135px
+    height: 25px
+    +above($breakpoints.sm)
+      width 140px
+      height: 30px
+    +above($breakpoints.md)
+      width 150px
+      height: 33px
+    +above($breakpoints.xxl)
+      width 180px
+      height: 35px
